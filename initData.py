@@ -40,7 +40,6 @@ def dis(d1,d2):
         distance+=(d1[i]-d2[i])**2
     return distance**0.5
 
-
 def kMeans(data,k,iteration=50,tol=0.0001):
     center=np.array([[0.0,0.0] for i in range(k)])
     label=np.array([-1 for i in range(len(data))])
